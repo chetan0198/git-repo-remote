@@ -15,4 +15,5 @@ syntax - git remote set-url origin https://<username>:<token>@github.com/<userna
 cmd - git remote set-url origin https://chetan0198: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@github.com/chetan0198/git-repo-remote.git
 
 
-now git push origin master
+now run - git push origin master(to push all content as well as branch to remote)
+git pull origin master
