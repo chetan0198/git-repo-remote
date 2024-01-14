@@ -1,3 +1,18 @@
-aa
+steps for git repo creation
 
-line 2
+got to folder than git init
+create a file edit it and do git status
+git add .
+git commit -m "message"
+
+
+now go to git hub create a repo to linked to local repo where all local things will be uploaded.
+
+create personalizar token in setting developer option.
+
+and run in local terminal below command
+syntax - git remote set-url origin https://<username>:<token>@github.com/<username>/<repository>.git
+cmd - git remote set-url origin https://chetan0198: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@github.com/chetan0198/git-repo-remote.git
+
+
+now git push origin master
